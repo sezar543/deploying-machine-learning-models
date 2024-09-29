@@ -3,7 +3,7 @@ from typing import Dict, List, Sequence
 
 from pydantic import BaseModel
 from strictyaml import YAML, load
-
+from typing import Optional  # Import Optional
 import regression_model
 
 # Project Directories
