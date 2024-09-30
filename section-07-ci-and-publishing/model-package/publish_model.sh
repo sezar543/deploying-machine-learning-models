@@ -3,6 +3,7 @@
 # Building packages and uploading them to a Gemfury repository
 
 GEMFURY_URL=$GEMFURY_PUSH_URL
+echo "GEMFURY_URL: $GEMFURY_URL"
 
 set -e
 set -x  # Enable debugging mode
